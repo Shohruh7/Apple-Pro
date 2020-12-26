@@ -4,13 +4,16 @@ hr{
     border-width: 5px;
     color: darkgrey;
 }
+header{
+    width: 900px;
+    padding-left: 300px;
+}
 .href{
     color: peru;
 }
 body{
     background-color: #485555;
-    width: 900px; margin: auto;
-    border-radius: unset;
+    margin: auto;
 }
 h1{
     color: whitesmoke;
@@ -45,4 +48,16 @@ li{
 }
 .D{
     color: blue;
+}
+.sbody{
+    width: 900px;
+background-size: 900px;
+    padding-left: 300px;
+}
+.dop{
+    width: 290px;
+    height: 200px;
+    margin: 1px;
+    border: solid;
+    
 }
