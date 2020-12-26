@@ -1,3 +1,6 @@
+.hed{
+    padding-right: 300px;
+}
 hr{
     border-style: dotted none none;
     width: 15%;
@@ -5,18 +8,19 @@ hr{
     color: darkgrey;
 }
 header{
-    width: 900px;
+
     padding-left: 300px;
 }
 .href{
     color: peru;
 }
 body{
-    background-color: #485555;
     margin: auto;
+    background-image: url(back.jpg);
 }
 h1{
     color: whitesmoke;
+    margin: auto;
 }
 ul li{
     color: peru;
@@ -34,6 +38,32 @@ nav{
     float: right;
     padding: 5px;
 }
+footer{
+    background-color: white;
+}
+h3{
+    color: whitesmoke;
+}
+tr{
+    color: peru;
+}
+li{
+    color: whitesmoke;
+}
+.D{
+    color: blue;
+}
+.sbody{
+padding-left: 12px;
+padding-right: 12px;
+
+}
+.Bbody{
+    width: 1000px;
+    margin: auto;
+    background-color: lightslategray;
+}
+
 footer{
     background-color: whitesmoke;
 }
