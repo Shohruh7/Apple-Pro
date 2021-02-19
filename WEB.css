@@ -1,5 +1,7 @@
 .hed{
-    padding-right: 12px;
+    margin-right: 10px;
+    transition: font-size 1.5s;
+    font-size: 18px;
 }
 hr{
     border-style: dotted none none;
@@ -8,8 +10,7 @@ hr{
     color: darkgrey;
 }
 header{
-
-    padding-left: 300px;
+    padding-left: 200px;
 }
 .href{
     color: peru;
@@ -24,22 +25,35 @@ h1{
 }
 ul li{
     color: peru;
+    transition: font-size 1s;
+}
+ul li:hover{
+    font-size: 32px;
 }
 p{
     color: whitesmoke;
 }
 .img-r{
     float: right;
+    transition: border-radius 2s;
+}
+.img-r:hover{
+    border-radius: 30px;
 }
 .img-l{
     float: left;
+    transition: border-radius 2s;
+}
+.img-l:hover{
+    border-radius: 30px;
 }
 nav{
     float: right;
     padding: 5px;
 }
 footer{
-    background-color: white;
+    background-color: black;
+
 }
 h3{
     color: whitesmoke;
@@ -56,11 +70,16 @@ li{
 .sbody{
 padding-left: 12px;
 padding-right: 12px;
-
 }
 .Bbody{
     width: 1000px;
     margin: auto;
     background-color: lightslategray;
 }
-
+.footertrans{
+    transition: width 2s, height 2s;
+}
+.footertrans:hover{
+    width: 300px;
+    height: 300px;
+}
